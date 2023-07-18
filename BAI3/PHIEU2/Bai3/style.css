@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: green;
+}
+B{
+    color: #FF0000;
+}
+B U{
+    color: black;
+}
+div{
+    background-color: #CCCCCC;
+    color: #0000CC;
+}
+.p{
+    margin-left: 290px;
+    margin-right: 290px;
+}
+.dong2{
+    text-align: right;
+}

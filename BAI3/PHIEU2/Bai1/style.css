@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:darkturquoise;
+}
+h1{
+    color: white;
+    text-align: right;
+}
