@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+h1{
+    background-color: #FECFFD;
+    color: #FF3399;
+}
+.tho{
+    background-color: #FFFFCC;
+    font-style: italic;
+}
+.khuc1{
+    color: blue;
+}
+.khuc2{
+    color: brown;
+}
+.khuc3{
+    color: green;
+}
