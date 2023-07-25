@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.nav nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.nav li{
+    list-style: none;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.menu{
+    width: 20%;
+    background-color: chocolate;
+}
+.menu h4{
+    color: white;
+    background-color: coral;
+    border: 1px solid white;
+    margin: 0px;
+    text-align: center;
+}
+.menu li{
+    width: 100%;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+.menu ul{
+    border: 1px solid white;
+    background-color: brown;
+    margin: 0px;
+    padding-left: 18px;
+}
+.sp{
+    width: 80%;
+}
+.imgs p{
+    color: white;
+    background-color: coral;
+    margin: 0px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+}
+.product{
+    padding: 80px;
+}
+.menu2 ul{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.menu2 li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-right: 1px solid white;
+}
+footer{
+    text-align: center;
+    background-color:burlywood;
+}
+.product p{
+    border: 1px solid white;
+    margin: 0px;
+    background-color:bisque ;
+}
+.product .ma{
+    background-color:silver;
+    margin-top: 10px;
+}
+.nav2{
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav li:hover{
+    background-color: aqua;
+}
+nav li:hover ul{
+    display: block;
+    position: absolute;
+    width: 250px;  
+    background-color: aqua;
+}
+.nav2 li{
+    height: 100%;
+    border: 1px solid black;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
